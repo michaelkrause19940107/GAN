@@ -71,7 +71,7 @@ class Sample(App):
 # 関数を準備 : ボタンがクリックされた際に呼び出される
     def callback(self, instance):
     # ラベルのテキストを更新する
-        self.Test.text = "kivy : basic_learning"
+        self.Test.text = "kivy : basic_learning → nice click!!"
     
 # アプリを起動する
 if __name__ == "__main__":
