@@ -59,5 +59,3 @@ for i, idx in enumerate(indices):
     ax.text(0.5, -0.35, 'pred = ' + str(preds_single[idx]), fontsize=10, ha='center', transform=ax.transAxes) 
     ax.text(0.5, -0.7, 'act = ' + str(actual_single[idx]), fontsize=10, ha='center', transform=ax.transAxes)
     ax.imshow(img)
-
-a
